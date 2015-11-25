@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace RealtimeDashboard.Database
 {
-    public class Class1
+    public class DatabaseContext : System.Data.Entity.DbContext
     {
+        public DatabaseContext() :
+           base("MyDatabaseContext")
+        {
+
+        }
     }
 }

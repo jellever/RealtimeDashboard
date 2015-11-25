@@ -58,7 +58,7 @@
                           controller: 'HomeController'
                       }).
                       when('/bla/', {
-                          title: 'Campaigns',
+                          title: 'Blas',
                           templateUrl: 'Views/bla-overview.html',
                           controller: 'BlaController',
                           resolve: {
