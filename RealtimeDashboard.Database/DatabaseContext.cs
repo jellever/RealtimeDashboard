@@ -13,5 +13,7 @@ namespace RealtimeDashboard.Database
         {
 
         }
+
+        public System.Data.Entity.DbSet<RealtimeDashboard.Database.Models.ChatMessage> ChatMessages { get; set; }
     }
 }

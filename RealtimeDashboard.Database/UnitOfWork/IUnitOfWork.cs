@@ -12,7 +12,7 @@ namespace RealtimeDashboard.Server.Database
 {
 	public interface IUnitOfWork : IDisposable
 	{
-		IRepository<MyModel> MyModelRepository { get; }
+		IRepository<ChatMessage> ChatMessageRepository { get; }
 		
 
 		void Commit();

@@ -1,0 +1,17 @@
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.Core\bin\Debug\RealtimeDashboard.Core.dll
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.Core\bin\Debug\RealtimeDashboard.Core.pdb
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.Core\obj\Debug\RealtimeDashboard.Core.dll
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.Core\obj\Debug\RealtimeDashboard.Core.pdb
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.Core\bin\Debug\RealtimeDashboard.Core.dll.config
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.Core\bin\Debug\EntityFramework.dll
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.Core\bin\Debug\EntityFramework.SqlServer.dll
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.Core\bin\Debug\protobuf-net.dll
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.Core\bin\Debug\RabbitMQ.Client.dll
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.Core\bin\Debug\RealtimeDashboard.Database.dll
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.Core\bin\Debug\RealtimeDashboard.Database.pdb
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.Core\bin\Debug\EntityFramework.xml
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.Core\bin\Debug\EntityFramework.SqlServer.xml
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.Core\bin\Debug\protobuf-net.pdb
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.Core\bin\Debug\protobuf-net.xml
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.Core\bin\Debug\RabbitMQ.Client.xml
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.Core\obj\Debug\RealtimeDashboard.Core.csprojResolveAssemblyReference.cache

@@ -8,7 +8,6 @@
     function EntityFeedService($http, Hub, LogService) {
         var service = {
             subscribe: subscribe,
-            subscribeByGroupName: subscribeByGroupName,
             resetSubscribtions: resetSubscribtions,
             onNewEntity: onNewEntity,
             onUpdatedEntity: onUpdatedEntity,
@@ -47,21 +46,10 @@
             hub.on('DeletedEntity', func);
         }
 
-        function subscribeByGroupName(groupName) {
-            var logStr = "Subscribing to '" + groupName + "'";
-            LogService.writeLine(LogService.INFO, 'EntityFeedService', logStr);
-            hub.subscribe(groupName);
-        }
-
         function subscribe(typeName, entityId, relationName) {
-            var groupName = typeName;
-            if (entityId !== null) {
-                groupName += "." + entityId;
-            }
-            if (relationName !== null) {
-                groupName += "." + relationName;
-            }
-            subscribeByGroupName(groupName);
+            var logStr = "Calling subscribe.";
+            LogService.writeLine(LogService.INFO, 'EntityFeedService', logStr, arguments);
+            return hub.subscribe(typeName, entityId, relationName);
         }
 
         function resetSubscribtions() {

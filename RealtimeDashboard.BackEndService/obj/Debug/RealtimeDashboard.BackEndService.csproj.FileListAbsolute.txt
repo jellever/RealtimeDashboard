@@ -1,0 +1,5 @@
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.BackEndService\bin\Debug\ReamtimeDashboard.BackEndService.exe.config
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.BackEndService\bin\Debug\ReamtimeDashboard.BackEndService.exe
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.BackEndService\bin\Debug\ReamtimeDashboard.BackEndService.pdb
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.BackEndService\obj\Debug\ReamtimeDashboard.BackEndService.exe
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.BackEndService\obj\Debug\ReamtimeDashboard.BackEndService.pdb

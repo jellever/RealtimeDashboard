@@ -1,0 +1,11 @@
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.Database\bin\Debug\RealtimeDashboard.Database.dll.config
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.Database\bin\Debug\RealtimeDashboard.Database.dll
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.Database\bin\Debug\RealtimeDashboard.Database.pdb
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.Database\bin\Debug\EntityFramework.dll
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.Database\bin\Debug\EntityFramework.SqlServer.dll
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.Database\bin\Debug\RabbitMQ.Client.dll
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.Database\bin\Debug\EntityFramework.xml
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.Database\bin\Debug\EntityFramework.SqlServer.xml
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.Database\bin\Debug\RabbitMQ.Client.xml
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.Database\obj\Debug\RealtimeDashboard.Database.dll
+G:\User\Documents\Visual Studio 2015\Projects\RealtimeDashboard\RealtimeDashboard.Database\obj\Debug\RealtimeDashboard.Database.pdb
