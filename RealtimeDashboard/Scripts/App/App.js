@@ -81,7 +81,6 @@
 
     myApp.run(['$rootScope', 'EntityFeedService', function ($rootScope, EntityFeedService) {
         $rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
-            i
             EntityFeedService.resetSubscribtions();
         });
     }]);
