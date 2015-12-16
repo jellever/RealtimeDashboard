@@ -52,25 +52,36 @@
 
     myApp.config(['$routeProvider', function ($routeProvider) {
         $routeProvider.
-                      when('/', {
-                          title: 'Home',
-                          templateUrl: 'Views/home.html',
-                          controller: 'HomeController'
-                      }).
-                      when('/bla/', {
-                          title: 'Blas',
-                          templateUrl: 'Views/bla-overview.html',
-                          controller: 'BlaController',
-                          resolve: {
-                              blas: function () {
-                                  return ["BlaModel"];
-                              }
-                          }
-                      });
+            when('/', {
+                title: 'Home',
+                templateUrl: 'Views/home.html'
+            }).
+            when('/chatrooms/', {
+                title: 'Blas',
+                templateUrl: 'Views/chatroom-overview.html',
+                controller: 'ChatRoomController',
+                resolve: {
+
+                }
+            }).
+            when('/chatrooms/:chatRoomId', {
+                title: 'Blas',
+                templateUrl: 'Views/chatroom-overview.html',
+                controller: 'ChatRoomController',
+                resolve: {
+                    params: [
+                        '$route', function($route) {
+                            var id = $route.current.params.chatRoomId; 
+                            return { id: id };
+                        }
+                    ]
+                }
+            });
     }]);
 
     myApp.run(['$rootScope', 'EntityFeedService', function ($rootScope, EntityFeedService) {
-        $rootScope.$on('$routeChangeSuccess', function (event, current, previous) {i
+        $rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
+            i
             EntityFeedService.resetSubscribtions();
         });
     }]);

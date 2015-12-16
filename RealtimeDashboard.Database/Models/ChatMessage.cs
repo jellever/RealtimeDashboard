@@ -14,6 +14,10 @@ namespace RealtimeDashboard.Database.Models
 
         public string Name { get; set; }
 
+        public Int64 ChatRoomId { get; set; }
+        public ChatRoom ChatRoom { get; set; }
+
+
         public long GetID()
         {
             return Id;
@@ -21,7 +25,17 @@ namespace RealtimeDashboard.Database.Models
 
         public List<RelatedEntityInfo> GetRelatedEntityInfo()
         {
-            return new List<RelatedEntityInfo>();
+            List<RelatedEntityInfo> result = new List<RelatedEntityInfo>();
+            if (ChatRoom != null)
+            {
+                result.Add(new RelatedEntityInfo()
+                {
+                    Id = ChatRoomId,
+                    RelationName = "ChatRoom_ChatMessages",
+                    TypeName = nameof(ChatRoom)
+                });
+            }
+            return result;
         }
 
         public bool ShouldNotify()

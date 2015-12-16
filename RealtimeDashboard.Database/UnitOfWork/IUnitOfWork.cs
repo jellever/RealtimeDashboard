@@ -13,8 +13,9 @@ namespace RealtimeDashboard.Server.Database
 	public interface IUnitOfWork : IDisposable
 	{
 		IRepository<ChatMessage> ChatMessageRepository { get; }
-		
 
-		void Commit();
+        IRepository<ChatRoom> ChatRoomRepository { get; }
+
+        void Commit();
 	}
 }

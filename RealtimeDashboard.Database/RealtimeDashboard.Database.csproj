@@ -54,6 +54,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DatabaseContext.cs" />
+    <Compile Include="DatabaseInitializer.cs" />
+    <Compile Include="Models\ChatRoom.cs" />
     <Compile Include="Models\IEntityNotifyChanged.cs" />
     <Compile Include="Models\ChatMessage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

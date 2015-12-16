@@ -15,12 +15,14 @@ namespace RealtimeDashboard.Server.Database
         protected DbContext dbContext;
 
         public IRepository<ChatMessage> ChatMessageRepository { get; protected set; }
+        public IRepository<ChatRoom> ChatRoomRepository { get; protected set; }
 
 
         public EFUnitOfWork(DbContext context)
         {
             this.dbContext = context;
             this.ChatMessageRepository = new GenericEFRepository<ChatMessage>(context);
+            this.ChatRoomRepository = new GenericEFRepository<ChatRoom>(context);
         }
 
         public virtual void Commit()
