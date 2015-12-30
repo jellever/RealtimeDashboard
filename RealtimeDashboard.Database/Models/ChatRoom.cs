@@ -14,6 +14,11 @@ namespace RealtimeDashboard.Database.Models
 
         public ICollection<ChatMessage> ChatMessages { get; set; } 
 
+        public ChatRoom()
+        {
+            this.ChatMessages = new List<ChatMessage>();
+        }
+
         public long GetID()
         {
             return Id;
