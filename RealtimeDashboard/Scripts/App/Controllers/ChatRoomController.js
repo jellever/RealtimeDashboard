@@ -6,8 +6,7 @@
         .controller('ChatRoomController', ChatRoomController);
 
 
-    function ChatRoomController($scope, WebApi, EntityTracker, Utils, params) {
-        $scope.title = 'Home';
+    function ChatRoomController($scope, WebApi, EntityTracker, Utils) {
         $scope.chatRooms = [];
         var entityTracker = new EntityTracker();
 

@@ -5,8 +5,7 @@
         // Angular modules 
         'ngRoute',
         'ngAnimate',
-        'SignalR',
-        'angularUtils.directives.dirPagination'
+        'SignalR'
 
 
         // Custom modules 
@@ -66,8 +65,8 @@
             }).
             when('/chatrooms/:chatRoomId', {
                 title: 'Blas',
-                templateUrl: 'Views/chatroom-overview.html',
-                controller: 'ChatRoomController',
+                templateUrl: 'Views/chatroom-details.html',
+                controller: 'ChatRoomDetailsController',
                 resolve: {
                     params: [
                         '$route', function($route) {

@@ -13,8 +13,15 @@
             GetChatRoomChatMessages: GetChatRoomChatMessages,
             GetChatRoom: GetChatRoom,
             GetChatMessages: GetChatMessages,
-            GetChatMessage: GetChatMessage
+            GetChatMessage: GetChatMessage,
+            CreateNewChatMessage: CreateNewChatMessage
         };
+
+        function CreateNewChatMessage(chatMessage) {
+            return $http.post("/api/ChatMessages/",
+                chatMessage
+            );
+        }
 
         function GetChatRooms() {
             return $http.get("/api/ChatRooms/", {

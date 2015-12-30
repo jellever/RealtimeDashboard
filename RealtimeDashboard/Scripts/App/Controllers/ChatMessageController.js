@@ -7,7 +7,6 @@
 
 
     function ChatMessageController($scope, WebApi, EntityTracker, Utils, params) {
-        $scope.title = 'Home';
         $scope.chatMessages = [];
         var entityTracker = new EntityTracker();
 
@@ -30,7 +29,7 @@
         }
 
         function activate() {
-            getChatMessages.success(function (data) {
+            getChatMessages().success(function (data) {
                 $.each(data, function () {
                     $scope.chatMessages.push(this);
                 });

@@ -42,7 +42,7 @@ namespace RealtimeDashboard.Controllers
         [ResponseType(typeof(ChatRoom))]
         public async Task<IHttpActionResult> GetChatRoom(long id)
         {
-            ChatRoom chatRoom = await unitOfWork.ChatRoomRepository.Get(id);
+            ChatRoom chatRoom = await unitOfWork.ChatRoomRepository.Get(x => x.Id == id, x => x.ChatMessages);
             if (chatRoom == null)
             {
                 return NotFound();

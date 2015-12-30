@@ -1,0 +1,18 @@
+﻿<h1>ChatRoom '{{chatroom.Name}}'</h1>
+
+
+<div ng-controller="ChatMessageController" ng-inject="{params: {chatRoomId: id}}">
+    <div ng-repeat="chatMsg in chatMessages">
+        <div>Name: {{chatMsg.Name}}</div>
+        <div>{{chatMsg.Text}}</div>
+    </div>
+</div>
+
+<hr />
+<div>
+    <form ng-submit="submitChatRoomMessage()">
+        Name: <br /><input type="text" name="Name" ng-model="chatMsgForm.Name" /><br />
+        Text: <br /><textarea name="Text" ng-model="chatMsgForm.Text"></textarea><br />
+        <input type="submit" value="Submit" />
+    </form>
+</div>

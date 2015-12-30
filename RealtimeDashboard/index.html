@@ -1,10 +1,28 @@
 ﻿<!DOCTYPE html>
-<html>
+<html ng-app="app">
 <head>
     <title></title>
-	<meta charset="utf-8" />
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="/Scripts/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="/Scripts/angular.min.js"></script>
+    <script type="text/javascript" src="/Scripts/angular-route.min.js"></script>
+    <script type="text/javascript" src="/Scripts/angular-animate.min.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.signalR-2.2.0.min.js"></script>
+    <script type="text/javascript" src="/Scripts/App/Services/angular-signalr-hub.js"></script>
+    <script type="text/javascript" src="/Scripts/App/App.js"></script>
+   
+    <script type="text/javascript" src="/Scripts/App/Services/EntityFeedService.js"></script>
+    <script type="text/javascript" src="/Scripts/App/Services/EntityTracker.js"></script>
+    <script type="text/javascript" src="/Scripts/App/Services/LogService.js"></script>
+    <script type="text/javascript" src="/Scripts/App/Services/Utils.js"></script>
+    <script type="text/javascript" src="/Scripts/App/Services/WebApi.js"></script>
+    <script type="text/javascript" src="/Scripts/App/Controllers/ChatMessageController.js"></script>
+    <script type="text/javascript" src="/Scripts/App/Controllers/ChatRoomController.js"></script>
+    <script type="text/javascript" src="/Scripts/App/Controllers/ChatRoomDetailsController.js"></script>
 </head>
 <body>
-
+<div ng-view>
+    
+</div>
 </body>
 </html>

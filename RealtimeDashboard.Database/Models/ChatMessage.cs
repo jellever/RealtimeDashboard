@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace RealtimeDashboard.Database.Models
 {
@@ -15,6 +16,8 @@ namespace RealtimeDashboard.Database.Models
         public string Name { get; set; }
 
         public Int64 ChatRoomId { get; set; }
+
+        [JsonIgnore]
         public ChatRoom ChatRoom { get; set; }
 
 
@@ -26,7 +29,7 @@ namespace RealtimeDashboard.Database.Models
         public List<RelatedEntityInfo> GetRelatedEntityInfo()
         {
             List<RelatedEntityInfo> result = new List<RelatedEntityInfo>();
-            if (ChatRoom != null)
+            if (ChatRoomId != 0)
             {
                 result.Add(new RelatedEntityInfo()
                 {
